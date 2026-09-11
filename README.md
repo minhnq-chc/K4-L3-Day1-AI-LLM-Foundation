@@ -16,6 +16,19 @@ Bản hướng dẫn có giao diện đọc dễ hơn nằm trên VLearn:
 [Lab 01 — Nền tảng LLM API](https://vlearn.dev/course/k4p1/reader?day=D01&part=codelab-81bf0ad781904d05a8b5e5b474a4060c-s01-doc).
 Nội dung giống nhau; chọn bản nào bạn thấy dễ theo hơn. Bài nộp cũng nộp ở đó.
 
+## Bonus — giao diện chatbot
+
+Sau khi hoàn thành bài chuẩn, có thể chạy giao diện demo bằng Streamlit:
+
+```powershell
+pip install -r requirements.txt
+streamlit run demo_chatbot.py
+```
+
+Demo có hai chế độ: chat streaming với Nex-N2.5-Pro/Mini và so sánh hai model
+trên cùng một prompt theo latency, token và nội dung trả lời. Cấu hình API vẫn
+đọc từ `.env`; file chứa key đã được `.gitignore` loại khỏi bài nộp.
+
 **1. Fork repo này** trên GitHub (nút **Fork** góc phải trên), rồi clone bản
 fork của bạn về máy — bài nộp cuối buổi là link tới fork đó:
 
